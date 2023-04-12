@@ -10,7 +10,7 @@ import {
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     return (
-        <div className='header-bg'>
+        <div className='my-bg-color2'>
             <nav className=' px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'>
                 <div className='relative flex items-center justify-between'>
                     {/* Logo Section */}
@@ -147,23 +147,7 @@ const Header = () => {
                 </div>
             </nav>
 
-            {/* <div className='my-container grid grid-cols-1 md:grid-cols-2 gap-12 justify-center items-center'>
-                <div className=''>
-                    <div className='text-7xl font-bold'>
-                        <span>One Step </span> <br />
-                        <span>Closer To Your</span> <br />
-                        <span className='my-color'>Dream Job</span>
-                    </div>
-                    <p className='mt-6 mb-8 text-gray-400'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
-
-                    <button className='my-bg-color text-white text-xl font-bold px-7 py-5 rounded-lg'>
-                        Get Started
-                    </button>
-                </div>
-                <div className=''>
-                    <img src="/public/assets/All-Images/header-cover.png" alt="" />
-                </div>
-            </div> */}
+            
         </div>
     )
 };

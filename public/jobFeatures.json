@@ -1,75 +1,110 @@
 [
-    {
-      "id": "j234a",
-      "name": "Software Engineer",
-      "company": "Google LLC",
-      "logo": "assets/Logo/google-1-1 1.png",
-      "environment": {
-        "type": "Remote",
-        "status": "Full Time"
-      },
-      "location": "San Francisco, CA",
-      "salary": "150k - 200k"
+  {
+    "id": "j234a",
+    "name": "Software Engineer",
+    "company": "Google LLC",
+    "logo": "assets/Logo/google-1-1 1.png",
+    "environment": {
+      "type": "Remote",
+      "status": "Full Time"
     },
-    {
-      "id": "j347b",
-      "name": "Product Designer",
-      "company": "Netflix",
-      "logo": "assets/Logo/netflix-4 1.png",
-      "environment": {
-        "type": "Onsite",
-        "status": "Part Time"
-      },
-      "location": "Los Angeles, CA",
-      "salary": "120k - 180k"
+    "location": "San Francisco, CA",
+    "salary": "150k - 200k",
+    "des": "We are looking for a talented software engineer to join our team and help us build innovative and scalable applications.",
+    "res": "Design and implement software solutions, participate in code reviews, collaborate with cross-functional teams to identify and prioritize features, write clean and maintainable code.",
+    "requirement": "Bachelor's or Master's degree in Computer Science or a related field, experience with at least one programming language such as Java, C++, Python, or JavaScript.",
+    "email": "jobs@google.com",
+    "phone": "123-456-7890",
+    "experience": "3+ years of relevant experience in software development."
+  },
+  {
+    "id": "j347b",
+    "name": "Product Designer",
+    "company": "Netflix",
+    "logo": "assets/Logo/netflix-4 1.png",
+    "environment": {
+      "type": "Onsite",
+      "status": "Part Time"
     },
-    {
-      "id": "j421c",
-      "name": "Data Scientist",
-      "company": "Tesla",
-      "logo": "assets/Logo/tesla-9 1.png",
-      "environment": {
-        "type": "Remote",
-        "status": "Full Time"
-      },
-      "location": "Palo Alto, CA",
-      "salary": "180k - 220k"
+    "location": "Los Angeles, CA",
+    "salary": "120k - 180k",
+    "des": "We are looking for a creative and experienced product designer to join our team and help us design innovative and engaging user experiences.",
+    "res": "Collaborate with cross-functional teams to identify user needs and product requirements, design and prototype user interfaces, conduct user research and usability testing, provide design guidance and feedback to other designers.",
+    "requirement": "Bachelor's or Master's degree in Design or a related field, proficiency in design tools such as Sketch, Figma, or Adobe Creative Suite, experience with designing for mobile and web applications.",
+    "email": "jobs@netflix.com",
+    "phone": "123-456-7890",
+    "experience": "5+ years of relevant experience in product design."
+  },
+  {
+    "id": "j421c",
+    "name": "Data Scientist",
+    "company": "Tesla",
+    "logo": "assets/Logo/tesla-9 1.png",
+    "environment": {
+      "type": "Remote",
+      "status": "Full Time"
     },
-    {
-      "id": "j584d",
-      "name": "Marketing Manager",
-      "company": "Facebook",
-      "logo": "assets/Logo/Facebook-logo.png",
-      "environment": {
-        "type": "Onsite",
-        "status": "Full Time"
-      },
-      "location": "Menlo Park, CA",
-      "salary": "160k - 220k"
+    "location": "Palo Alto, CA",
+    "salary": "180k - 220k",
+    "des": "We are seeking a talented and experienced data scientist to join our team and help us develop and implement cutting-edge data analytics and machine learning solutions.",
+    "res": "Collect and analyze large and complex datasets, develop and train predictive models using machine learning algorithms, collaborate with cross-functional teams to identify and prioritize data-driven projects, communicate insights and recommendations to stakeholders.",
+    "requirement": "Bachelor's or Master's degree in Data Science, Computer Science, Mathematics, Statistics, or a related field, proficiency in data analysis tools such as Python, R, or SQL, experience with machine learning frameworks such as TensorFlow, PyTorch, or Scikit-learn.",
+    "email": "jobs@tesla.com",
+    "phone": "123-456-7890",
+    "experience": "7+ years of relevant experience in data science."
+  },
+  {
+    "id": "j578d",
+    "name": "Software Engineer",
+    "company": "Facebook",
+    "logo": "assets/Logo/Facebook-logo.png",
+    "environment": {
+      "type": "Onsite",
+      "status": "Full Time"
     },
-    {
-      "id": "j687e",
-      "name": "Software Engineer",
-      "company": "Microsoft",
-      "logo": "assets/Logo/Microsoft-logo (1).jpg",
-      "environment": {
-        "type": "Remote",
-        "status": "Part Time"
-      },
-      "location": "Redmond, WA",
-      "salary": "120k - 180k"
+    "location": "Menlo Park, CA",
+    "salary": "150k - 200k",
+    "des": "We are looking for a talented software engineer to join our team and help us build innovative and scalable applications.",
+    "res": "Design and implement software solutions, participate in code reviews, collaborate with cross-functional teams to identify and prioritize features, write clean and maintainable code.",
+    "requirement": "Bachelor's or Master's degree in Computer Science or a related field, experience with at least one programming language such as Java, C++, Python, or JavaScript.",
+    "email": "jobs@facebook.com",
+    "phone": "123-456-7890",
+    "experience": "3+ years of relevant experience in software development."
+  },
+  {
+    "id": "j289e",
+    "name": "Data Analyst",
+    "company": "Microsoft Corporation",
+    "logo": "assets/Logo/Microsoft-logo (1).jpg",
+    "environment": {
+      "type": "Remote",
+      "status": "Full Time"
     },
-    {
-      "id": "j751f",
-      "name": "UI/UX Designer",
-      "company": "Airbnb",
-      "logo": "assets/Logo/Group 10021.png",
-      "environment": {
-        "type": "Onsite",
-        "status": "Full Time"
-      },
-      "location": "San Francisco, CA",
-      "salary": "150k - 200k"
-    }
-  ]
-  
+    "location": "Redmond, WA",
+    "salary": "120k - 160k",
+    "des": "We are seeking a skilled data analyst to join our team and help us analyze and interpret complex data sets to inform business decisions.",
+    "res": "Collect, process, and analyze large and complex data sets, develop and maintain data models and dashboards, identify trends and insights, communicate findings and recommendations to stakeholders.",
+    "requirement": "Bachelor's or Master's degree in Computer Science, Mathematics, Statistics, Economics, or a related field, proficiency in data analysis tools such as Excel, SQL, or R, experience with business intelligence and visualization tools such as Power BI, Tableau, or QlikView.",
+    "email": "jobs@microsoft.com",
+    "phone": "123-456-7890",
+    "experience": "5+ years of relevant experience in data analysis."
+  },
+  {
+    "id": "j392f",
+    "name": "Product Manager",
+    "company": "Airbnb",
+    "logo": "assets/Logo/Group 10021.png",
+    "environment": {
+      "type": "Onsite",
+      "status": "Full Time"
+    },
+    "location": "San Francisco, CA",
+    "salary": "170k - 220k",
+    "des": "We are seeking a passionate and experienced product manager to help us build and launch new products and features to delight our users.",
+    "res": "Lead cross-functional teams to develop and launch new products and features, conduct market and user research to identify product opportunities, develop and maintain product roadmaps and specifications, track and report on key product metrics.",
+    "requirement": "Bachelor's or Master's degree in Business, Engineering, Computer Science, or a related field, experience in product management or related field, strong analytical and problem-solving skills, excellent communication and collaboration skills.",
+    "email": "jobs@airbnb.com",
+    "phone": "123-456-7890",
+    "experience": "7+ years of relevant experience in product management."
+  }
+]

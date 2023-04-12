@@ -25,6 +25,25 @@ const Home = () => {
 
     return (
         <div>
+            {/* header section */}
+            <div className='my-container grid grid-cols-1 md:grid-cols-2 gap-12 justify-center items-center'>
+                <div className=''>
+                    <div className='text-7xl font-bold'>
+                        <span>One Step </span> <br />
+                        <span>Closer To Your</span> <br />
+                        <span className='my-color'>Dream Job</span>
+                    </div>
+                    <p className='mt-6 mb-8 text-gray-400'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
+
+                    <button className='my-bg-color text-white text-xl font-bold px-7 py-5 rounded-lg'>
+                        Get Started
+                    </button>
+                </div>
+                <div className=''>
+                    <img src="/public/assets/All-Images/header-cover.png" alt="" />
+                </div>
+            </div>
+
             {/* job category section */}
             <section className='my-container'>
                 <h1 className='text-center text-5xl font-bold'>Job Category List</h1>
@@ -54,8 +73,8 @@ const Home = () => {
                 </div>
 
                 <div className='text-center mt-10'>
-                    <button 
-                        onClick={()=>setIsJobFeatures(true)} 
+                    <button
+                        onClick={() => setIsJobFeatures(true)}
                         className={`${isJobFeatures ? 'hidden' : ''} mx-auto my-bg-color py-3 px-8 text-xl font-bold text-white rounded`}>
                         See All Jobs
                     </button>

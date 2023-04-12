@@ -1,0 +1,27 @@
+[
+      {
+        "id": "cat_1a",
+        "name": "Account & Finance",
+        "img": "assets/Icons/accounts 1.png",
+        "job_abl": 200
+      },
+      {
+        "id": "cat_2b",
+        "name": "Creative Design",
+        "img": "assets/Icons/business 1.png",
+        "job_abl": 150
+      },
+      {
+        "id": "cat_3c",
+        "name": "Marketing & Sales",
+        "img": "assets/Icons/chip 1.png",
+        "job_abl": 230
+      },
+      {
+        "id": "cat_4d",
+        "name": "Engineering Job",
+        "img": "assets/Icons/social-media 1.png",
+        "job_abl": 100
+      }
+]
+  

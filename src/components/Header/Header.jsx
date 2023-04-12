@@ -154,7 +154,7 @@ const Header = () => {
                     <span>Closer To Your</span> <br />
                     <span className='my-color'>Dream Job</span>
                 </div>
-                <p className='mt-6 mb-8 text-gray-600'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
+                <p className='mt-6 mb-8 text-gray-400'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
                 
                 <button className='my-bg-color text-white text-xl font-bold px-7 py-5 rounded-lg'>
                 Get Started

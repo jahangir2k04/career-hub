@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 
+.header-bg{
+  background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+}
 
 .my-container{
-  @apply px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20
+  @apply px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8
 }
 
 .my-color{
@@ -20,7 +23,7 @@
 }
 
 .active{
-  @apply font-medium tracking-wide my-color transition-colors duration-200 hover:text-violet-500
+  @apply font-medium tracking-wide text-violet-600 transition-colors duration-200 hover:text-violet-500
 }
 
 .default{

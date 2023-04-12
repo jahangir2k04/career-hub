@@ -4,18 +4,21 @@ import { useLoaderData } from 'react-router-dom';
 import JobFeature from '../JobFeature/JobFeature';
 
 const Home = () => {
+    const [jobFeatures, setJobFeatures] = useState(false);
     const [categories, setCategories] = useState([]);
 
-    const jobFeatures = useLoaderData();
+    const allJobFeatures = useLoaderData();
+    const defaultJobFeatures = allJobFeatures.slice(0, 4);
+    // console.log(defaultJobFeatures);
     // console.log(jobFeatures);
-    
-    useEffect( () => {
+
+    useEffect(() => {
 
         fetch('jobCategory.json')
-        .then(res => res.json())
-        .then(data => setCategories(data))
+            .then(res => res.json())
+            .then(data => setCategories(data))
 
-    } , []); 
+    }, []);
 
     return (
         <div>
@@ -26,8 +29,8 @@ const Home = () => {
 
                 <div className='grid grid-cols-1 md:grid-cols-4  gap-6 '>
                     {
-                        categories.map(category => 
-                        <JobCategory key={category.id} category={category}></JobCategory>)
+                        categories.map(category =>
+                            <JobCategory key={category.id} category={category}></JobCategory>)
                     }
                 </div>
             </section>
@@ -39,14 +42,23 @@ const Home = () => {
 
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                     {
-                        jobFeatures.map(jobFeature => 
-                        <JobFeature 
-                            key={jobFeature.id} 
-                            jobFeature={jobFeature}
-                        ></JobFeature>)
+                        (jobFeatures ? allJobFeatures : defaultJobFeatures).map(jobFeature =>
+                            <JobFeature
+                                key={jobFeature.id}
+                                jobFeature={jobFeature}
+                            ></JobFeature>)
                     }
                 </div>
+
+                <div className='text-center mt-10'>
+                    <button 
+                        onClick={()=>setJobFeatures(true)} 
+                        className={`${jobFeatures ? 'hidden' : ''} mx-auto my-bg-color py-3 px-8 text-xl font-bold text-white rounded`}>
+                        See All Jobs
+                    </button>
+                </div>
             </section>
+
         </div>
     );
 };

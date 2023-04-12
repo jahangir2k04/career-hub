@@ -1,8 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const JobFeature = ({ jobFeature }) => {
     // console.log(jobFeature);
-    const { name, company, logo, environment, location, salary } = jobFeature;
+    const { id, name, company, logo, environment, location, salary } = jobFeature;
+
+    const navigate = useNavigate();
+    const jobDetailHandler = () => {
+        navigate(`/job-details/${id}`)
+    }
 
     return (
         <div className='border p-4 md:p-10 rounded-lg'>
@@ -27,7 +33,7 @@ const JobFeature = ({ jobFeature }) => {
                 
             </div>
             
-            <button className='my-bg-color py-3 px-4 text-xl font-bold text-white rounded'>View Details</button>
+            <button onClick={jobDetailHandler} className='my-bg-color py-3 px-4 text-xl font-bold text-white rounded'>View Details</button>
         </div>
     );
 };

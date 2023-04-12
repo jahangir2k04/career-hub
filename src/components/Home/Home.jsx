@@ -4,11 +4,14 @@ import { useLoaderData } from 'react-router-dom';
 import JobFeature from '../JobFeature/JobFeature';
 
 const Home = () => {
-    const [jobFeatures, setJobFeatures] = useState(false);
+    const [isJobFeatures, setIsJobFeatures] = useState(false);
     const [categories, setCategories] = useState([]);
 
     const allJobFeatures = useLoaderData();
     const defaultJobFeatures = allJobFeatures.slice(0, 4);
+
+    const jobFeatures = (isJobFeatures ? allJobFeatures : defaultJobFeatures);
+    // console.log(allJobFeatures);
     // console.log(defaultJobFeatures);
     // console.log(jobFeatures);
 
@@ -42,7 +45,7 @@ const Home = () => {
 
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                     {
-                        (jobFeatures ? allJobFeatures : defaultJobFeatures).map(jobFeature =>
+                        jobFeatures.map(jobFeature =>
                             <JobFeature
                                 key={jobFeature.id}
                                 jobFeature={jobFeature}
@@ -52,8 +55,8 @@ const Home = () => {
 
                 <div className='text-center mt-10'>
                     <button 
-                        onClick={()=>setJobFeatures(true)} 
-                        className={`${jobFeatures ? 'hidden' : ''} mx-auto my-bg-color py-3 px-8 text-xl font-bold text-white rounded`}>
+                        onClick={()=>setIsJobFeatures(true)} 
+                        className={`${isJobFeatures ? 'hidden' : ''} mx-auto my-bg-color py-3 px-8 text-xl font-bold text-white rounded`}>
                         See All Jobs
                     </button>
                 </div>

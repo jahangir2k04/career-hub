@@ -17,7 +17,7 @@ const Home = () => {
 
     useEffect(() => {
 
-        fetch('jobCategory.json')
+        fetch('/jobCategory.json')
             .then(res => res.json())
             .then(data => setCategories(data))
 

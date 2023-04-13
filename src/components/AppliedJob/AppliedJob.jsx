@@ -12,11 +12,11 @@ const AppliedJob = ({ job }) => {
 
     return (
         <div>
-            <div className='flex gap-8 p-8 border rounded-lg items-center mb-6'>
+            <div className='md:flex gap-8 p-8 border rounded-lg items-center mb-6'>
                 <div className='w-60 h-60 bg-gray-100 rounded-lg grid items-center justify-center p-6'>
                     <img src={logo} alt="" />
                 </div>
-                <div>
+                <div className='my-6 md:my-auto'>
                     <h3 className='font-bold text-2xl text-gray-600'>{name}</h3>
                     <p className='text-xl font-semibold text-gray-400 mt-2'>{company}</p>
                     <div className='flex mt-4 mb-6 gap-4'>
@@ -36,7 +36,7 @@ const AppliedJob = ({ job }) => {
                     </div>
                 </div>
                 <div className='ms-auto'>
-                    <button onClick={() => jobDetailHandler(id)} className='my-bg-color py-3 px-4 text-xl font-bold text-white rounded'>View Details</button>
+                    <button onClick={jobDetailHandler} className='my-bg-color py-3 px-4 text-xl font-bold text-white rounded'>View Details</button>
                 </div>
             </div>
         </div>

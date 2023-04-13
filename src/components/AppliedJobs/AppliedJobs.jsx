@@ -22,7 +22,7 @@ const AppliedJobs = () => {
 
     return (
         <div className='my-container'>
-            <h3>Applied Jobs</h3>
+            <h3 className='text-center text-5xl font-bold mb-8'>Applied Jobs</h3>
             <div>
                 {
                     appliedJobs.map( job => <AppliedJob

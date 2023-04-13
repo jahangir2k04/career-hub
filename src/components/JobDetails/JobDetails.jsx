@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import { addToDb } from '../../utilities/fakedb';
 
 const JobDetails = () => {
     const { jobId } = useParams();
@@ -7,7 +8,7 @@ const JobDetails = () => {
     const [job, setJob] = useState([]);
     // console.log(job);
 
-    const { name, phone, email, des, res, requirement, experience, location, salary } = job;
+    const { id, name, phone, email, des, res, requirement, experience, location, salary } = job;
 
     useEffect(() => {
         if (jobData) {
@@ -83,7 +84,7 @@ const JobDetails = () => {
                             </p>
                         </div>
                     </div>
-                    <button className='w-full my-bg-color text-xl font-bold text-white py-4 rounded-lg'>Apply Now</button>
+                    <button onClick={() => addToDb(id)} className='w-full my-bg-color text-xl font-bold text-white py-4 rounded-lg'>Apply Now</button>
                 </div>
             </div>
         </div>

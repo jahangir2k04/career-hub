@@ -8,24 +8,26 @@ const AppliedJobs = () => {
     // console.log(allJobs);
     const [appliedJobs, setAppliedJobs] = useState([]);
 
-    useEffect( () => {
+    useEffect(() => {
         const storedAppliedJobs = getAppliedJobs();
         const saveAppliedJobs = [];
 
-        for(const id in storedAppliedJobs){
+        for (const id in storedAppliedJobs) {
             const addedAppliedJobs = allJobs.find(job => job.id === id);
             saveAppliedJobs.push(addedAppliedJobs);
         }
         setAppliedJobs(saveAppliedJobs);
 
-    } , []);
+    }, []);
 
     return (
         <div className='my-container'>
             <h3 className='text-center text-5xl font-bold mb-8'>Applied Jobs</h3>
+            
+
             <div>
                 {
-                    appliedJobs.map( job => <AppliedJob
+                    appliedJobs.map(job => <AppliedJob
                         key={job}
                         job={job}
                     ></AppliedJob>)

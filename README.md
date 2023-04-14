@@ -1,6 +1,6 @@
 # b7a9-career-hub-jahangir2k04
 
-* ### My live site link : [Job Hunts] (https://incredible-peony-4838d8.netlify.app/)
+* ### My live site link : (https://incredible-peony-4838d8.netlify.app/)
 
 * **In Header** , Make a responsive header with a **logo** and **Name** , some **Links** and a **Button**
 

@@ -1,8 +1,8 @@
 # b7a9-career-hub-jahangir2k04
 
-* **In Header** , Make a responsive header with a **logo** and **Name** , some **Links** and a **Button**
+* ### **In Header** , Make a responsive header with a **logo** and **Name** , some **Links** and a **Button**
 
-* In **Home Page**, displayed **Job Category list** , also displayed **Job Features** with some information and a **View Details** button
+* ### In **Home Page**, displayed **Job Category list** , also displayed **Job Features** with some information and a **View Details** button
 
 * When click on **View Details** button , then see the Job Details . Here displayed all the information of the clicked Job and also add a **Apply Now** button
 

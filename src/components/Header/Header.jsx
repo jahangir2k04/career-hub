@@ -126,7 +126,7 @@ const Header = () => {
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link to="/start-applying">
+                                                <Link to="/">
                                                     <button className='my-bg-color text-white text-base font-bold px-5 py-3 rounded-lg'>
                                                         Start Applying
                                                     </button>
@@ -139,7 +139,7 @@ const Header = () => {
                         )}
                     </div>
 
-                    <Link to="/start-applying" className='hidden md:block'>
+                    <Link to='/' className='hidden md:block'>
                         <button className='my-bg-color text-white text-xl font-bold px-7 py-5 rounded-lg'>
                             Start Applying
                         </button>

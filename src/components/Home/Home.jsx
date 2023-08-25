@@ -40,7 +40,7 @@ const Home = () => {
                     </button>
                 </div>
                 <div className=''>
-                    <img src="/public/assets/All-Images/header-cover.png" alt="" />
+                    <img src="/assets/All-Images/header-cover.png" alt="" />
                 </div>
             </div>
 
@@ -58,7 +58,7 @@ const Home = () => {
             </section>
 
             {/* job features section */}
-            <section className='my-container'>
+            <section id='job-features' className='my-container'>
                 <h1 className='text-5xl text-center font-bold '>Featured Jobs</h1>
                 <p className='text-center text-gray-400 mt-4 mb-8'>Explore  job features with all the information you need. Its your future.</p>
 

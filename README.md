@@ -1,6 +1,5 @@
-# career-hub
-
-* ### My live site link : (https://incredible-peony-4838d8.netlify.app/)
+# Job Hunts
+* **Live link:** https://job-hunts1.netlify.app/
 
 * Here is a **Navbar** with a name and logo, some links and a **Start Applying** button
 

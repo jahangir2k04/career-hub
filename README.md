@@ -1,4 +1,4 @@
-# b7a9-career-hub-jahangir2k04
+# career-hub
 
 * ### My live site link : (https://incredible-peony-4838d8.netlify.app/)
 
@@ -14,4 +14,4 @@
 
 * In **Statistics** , here is a **Pie Chart** with the information of my last 7 assignment marks
 
-* In **Blog** , here given some questions and answer.
+* In **Blog** , here is given some questions and answers.

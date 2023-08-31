@@ -1,4 +1,4 @@
-# Job Hunts
+# Job Hunts <sub><sup>( React project )<sup/><sub/>
 * **Live link:** https://job-hunts1.netlify.app/
 * Here is a **Navbar** with a name and logo, some links and a **Start Applying** button
 * In **Home Page**, here is a **Job Category list** section, a **Job Features** section with some information and a **View Details** button
